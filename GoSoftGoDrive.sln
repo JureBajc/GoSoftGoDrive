@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoSoftGoDrive", "GoSoftGoDrive\GoSoftGoDrive.csproj", "{AB1CD643-1E8E-4913-B277-F3F85306E6BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB1CD643-1E8E-4913-B277-F3F85306E6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1CD643-1E8E-4913-B277-F3F85306E6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1CD643-1E8E-4913-B277-F3F85306E6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1CD643-1E8E-4913-B277-F3F85306E6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C38B9471-539D-47F0-AB08-F7E3F2F16B20}
+	EndGlobalSection
+EndGlobal
