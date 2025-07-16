@@ -42,6 +42,7 @@ namespace GoSoftGoDrive
             renderer.PrintPathSummary(start, path, warehouse);
             renderer.DrawMap(warehouse, path);
             renderer.PrintLegend(path.Count, goals.Count, timer.ElapsedMilliseconds);
+
         }
     }
 }
