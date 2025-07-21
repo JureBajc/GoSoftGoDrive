@@ -11,7 +11,11 @@ namespace GosoftGoDrive
         {
             var goals = warehouse.GetGoalNames();
             var pozicijeCiljev = new HashSet<(int, int)>(warehouse.GetGoalNodes().Select(t => (t.X, t.Y)));
-
+            if (path.Count == 0)
+            {
+                Console.WriteLine("Ni poti do vseh izdelkov.");
+                return;
+            }
             var obiski = new Dictionary<(int, int), int>();
             int ix = 1;
             foreach (var n in path)
